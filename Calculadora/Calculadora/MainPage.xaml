@@ -35,30 +35,30 @@
         <Button Text="MR" Grid.Row="1" Grid.Column="1" BackgroundColor="Gray" CornerRadius="20"/>
         <Button Text="M-" Grid.Row="1" Grid.Column="2" BackgroundColor="Gray" CornerRadius="20"/>
         <Button Text="M+" Grid.Row="1" Grid.Column="3" BackgroundColor="Gray" CornerRadius="20"/>
-        <Button Text="/" Grid.Row="1" Grid.Column="4" BackgroundColor="Gray" CornerRadius="20"/>
+        <Button x:Name="BtnDiv" Text="/" Grid.Row="1" Grid.Column="4" BackgroundColor="Gray" CornerRadius="20" Clicked="BtnDiv_Clicked"/>
 
         <Button Text="+/-" Grid.Row="2" Grid.Column="0" BackgroundColor="Gray" CornerRadius="20"/>
         <Button Text="7" Grid.Row="2" Grid.Column="1" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="8" Grid.Row="2" Grid.Column="2" CornerRadius="20" Clicked="Button_Clicked" />
         <Button Text="9" Grid.Row="2" Grid.Column="3" CornerRadius="20" Clicked="Button_Clicked"/>
-        <Button Text="x" Grid.Row="2" Grid.Column="4" BackgroundColor="Gray" CornerRadius="20"/>
+        <Button x:Name="BtnMult" Text="x" Grid.Row="2" Grid.Column="4" BackgroundColor="Gray" CornerRadius="20" Clicked="BtnMult_Clicked"/>
 
         <Button Text=">" Grid.Row="3" Grid.Column="0" BackgroundColor="Gray" CornerRadius="20"/>
         <Button Text="4" Grid.Row="3" Grid.Column="1" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="5" Grid.Row="3" Grid.Column="2" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="6" Grid.Row="3" Grid.Column="3" CornerRadius="20" Clicked="Button_Clicked"/>
-        <Button Text="-" Grid.Row="3" Grid.Column="4" FontSize="Title" BackgroundColor="Gray" CornerRadius="20"/>
+        <Button x:Name="BtnResta" Text="-" Grid.Row="3" Grid.Column="4" FontSize="Title" BackgroundColor="Gray" CornerRadius="20" Clicked="BtnResta_Clicked"/>
 
-        <Button Text="c/ac" Grid.Row="4" Grid.Column="0" BackgroundColor="Orange" CornerRadius="20"/>
+        <Button x:Name="BtnClr" Text="c/ac" Grid.Row="4" Grid.Column="0" BackgroundColor="Orange" CornerRadius="20" Clicked="BtnClr_Clicked"/>
         <Button Text="1" Grid.Row="4" Grid.Column="1" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="2" Grid.Row="4" Grid.Column="2" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="3" Grid.Row="4" Grid.Column="3" CornerRadius="20" Clicked="Button_Clicked"/>
-        <Button Text="+" Grid.Row="4" Grid.Column="4" Grid.RowSpan="2" FontSize="Title" BackgroundColor="Gray" CornerRadius="20"/>
+        <Button x:Name="BtnSuma" Text="+" Grid.Row="4" Grid.Column="4" Grid.RowSpan="2" FontSize="Title" BackgroundColor="Gray" CornerRadius="20" Clicked="BtnSuma_Clicked"/>
 
         <Button Text="0" Grid.Row="5" Grid.Column="0" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="00" Grid.Row="5" Grid.Column="1" CornerRadius="20" Clicked="Button_Clicked"/>
         <Button Text="." Grid.Row="5" Grid.Column="2" CornerRadius="20"/>
-        <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Gray" Margin="0" CornerRadius="20"/>
+        <Button x:Name="BtnIgual" Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="Gray" Margin="0" CornerRadius="20" Clicked="BtnIgual_Clicked"/>
         
 
 

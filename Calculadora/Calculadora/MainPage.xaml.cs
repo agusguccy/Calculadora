@@ -25,5 +25,52 @@ namespace Calculadora
 
             LabelDisplay.Text = button.Text;
         }
+
+        private void BtnSuma_Clicked(object sender, EventArgs e) 
+        {
+            float a = float.Parse(LabelDisplay.Text);
+            float b = float.Parse(LabelDisplay.Text);
+            LabelDisplay.Text = (a + b).ToString();
+        
+        }
+
+        private void BtnResta_Clicked(object sender, EventArgs e)
+        {
+            float a = float.Parse(LabelDisplay.Text);
+            float b = float.Parse(LabelDisplay.Text);
+            LabelDisplay.Text = (a - b).ToString();
+        
+        }
+
+        private void BtnMult_Clicked(object sender, EventArgs e)
+        {
+            float a = float.Parse(LabelDisplay.Text);
+            float b = float.Parse(LabelDisplay.Text);
+            LabelDisplay.Text = (a * b).ToString();
+        
+        }
+
+        private void BtnDiv_Clicked(object sender, EventArgs e)
+        {
+            float a = float.Parse(LabelDisplay.Text);
+            float b = float.Parse(LabelDisplay.Text);
+            LabelDisplay.Text = (a / b).ToString();
+        }
+
+       /* private void BtnResto_Clicked(object sender, EventArgs e)
+        {
+            float a = float.Parse(LabelDisplay.Text);
+            float b = float.Parse(LabelDisplay.Text);
+            LabelDisplay.Text = (a % b).ToString();
+        }
+        */
+
+        private void BtnClr_Clicked(object sender, EventArgs e)
+        {
+            LabelDisplay.Text = string.Empty;
+        }
+
+
+
     }
 }
